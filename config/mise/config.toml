@@ -1,0 +1,11 @@
+[tools]
+air = "1.61.5"
+buf = "1.49.0"
+lazydocker = "0.24.1"
+lefthook = "1.10.3"
+node = "22.13.0"
+pnpm = "10.0.0"
+task = "3.40.1"
+
+[settings]
+experimental = true
