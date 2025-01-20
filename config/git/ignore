@@ -1,0 +1,48 @@
+# IDE files
+.vscode
+.idea
+
+# Tool files
+.envrc
+mise.local.toml
+
+# Temporary files
+*.bak
+*.swp
+*.swo
+*~
+*#
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Log files
+*.log
+
+# Package files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.msi
+
+# Compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.pyc
+*.pyo
