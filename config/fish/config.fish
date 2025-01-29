@@ -6,6 +6,8 @@ end
 mise activate fish | source
 task --completion fish | source
 zoxide init fish | source
+rustup completions fish | source
+source $CARGO_HOME/env.fish
 set --export GHQ_ROOT $HOME/.projects
 set --export FZF_DEFAULT_OPTS '--height 50% --reverse --border=rounded'
 set --export _ZO_FZF_OPTS $FZF_DEFAULT_OPTS
