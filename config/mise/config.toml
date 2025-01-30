@@ -1,12 +1,12 @@
 [tools]
-air = "1.61.5"
-buf = "1.49.0"
-lazydocker = "0.24.1"
-lefthook = "1.10.3"
+air = "latest"
+buf = "latest"
+lazydocker = "latest"
+lefthook = "latest"
 node = "22.13.0"
-"npm:gitmoji-cli" = "9.5.0"
-pnpm = "10.0.0"
-task = "3.40.1"
+"npm:gitmoji-cli" = "latest"
+pnpm = "latest"
+task = "latest"
 
 [settings]
 experimental = true
