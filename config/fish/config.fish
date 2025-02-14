@@ -28,6 +28,7 @@ source $XDG_DATA_HOME/cargo/env.fish
 mise activate fish | source
 task --completion fish | source
 zoxide init fish | source
+dblab completion fish | source
 rustup completions fish | source
 source $CARGO_HOME/env.fish
 set --export GHQ_ROOT $HOME/.projects
