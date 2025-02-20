@@ -26,6 +26,7 @@ source $XDG_DATA_HOME/cargo/env.fish
 
 #=============== Tool settings ===============#
 mise activate fish | source
+mise completion fish | source
 task --completion fish | source
 zoxide init fish | source
 dblab completion fish | source
