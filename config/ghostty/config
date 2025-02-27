@@ -40,8 +40,10 @@ window-height = 40
 window-width = 120
 
 # keybind
-keybind = alt+a=goto_split:left
-keybind = alt+d=goto_split:right
+keybind = alt+left=goto_split:left
+keybind = alt+right=goto_split:right
+keybind = alt+up=goto_split:up
+keybind = alt+down=goto_split:down
 keybind = alt+\=new_split:right
 keybind = alt+-=new_split:down
 keybind = alt+w=close_surface
