@@ -8,6 +8,9 @@ export XDG_BIN_HOME=$HOME/.local/bin
 # Extra paths
 export PATH=$PATH:$XDG_BIN_HOME
 
+# Common settings
+export EDITOR=/usr/bin/vim
+
 # Zsh settings
 export ZDOTDIR=$XDG_CONFIG_HOME/zsh
 export HISTFILE=$XDG_STATE_HOME/zsh/history
