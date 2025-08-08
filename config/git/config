@@ -1,0 +1,31 @@
+# vim: set filetype=gitconfig :
+[user]
+	signingkey = 50CB878774488C3B690B88C54F40AD589E1ECE72
+	email = yksk171118@gmail.com
+	name = aqyuki
+
+[includeIf "gitdir:~/projects/github.com/yumemi/"]
+  path = ~/.config/git/profiles/yumemi
+
+[includeIf "gitdir:~/projects/github.com/yumemi-inc/"]
+  path = ~/.config/git/profiles/yumemi
+
+[init]
+	defaultBranch = master
+
+[fetch]
+	prune = true
+
+[pull]
+	autostash = true
+
+[rebase]
+	abbreviateCommands = true
+	autosquash = true
+
+[commit]
+	gpgsign = true
+
+[merge]
+  conflictstyle = diff3
+
