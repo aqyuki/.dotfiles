@@ -1,0 +1,25 @@
+{
+  "prompt": {
+    "alias": {},
+    "useEmoji": true,
+    "scopes": [
+      "dev",
+      "misc",
+      "fish",
+      "git",
+      "lazygit",
+      "mise",
+      "neovim",
+      "starship"
+    ],
+    "allowCustomScopes": false,
+    "allowEmptyScopes": false,
+    "upperCaseSubject": true,
+    "markBreakingChangeMode": true,
+    "allowBreakingChanges": ["feat", "fix"],
+    "issuePrefixes": [
+      { "value": "closed", "name": "closed:   ISSUES has been processed" }
+    ],
+    "allowCustomIssuePrefix": false
+  }
+}
