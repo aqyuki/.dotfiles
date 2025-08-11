@@ -40,4 +40,20 @@ return {
     "EdenEast/nightfox.nvim",
     lazy = true,
   },
+  {
+    "catppuccin/nvim",
+    lazy = true,
+    opts = {
+      flavour = "mocha",
+      transparent_background = true,
+      float = {
+        transparent = true,
+      },
+      integrations = {
+        blink_cmp = {
+          style = "bordered",
+        },
+      },
+    },
+  },
 }

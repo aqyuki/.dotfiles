@@ -25,16 +25,6 @@ return {
     },
   },
   {
-    "petertriho/nvim-scrollbar",
-    event = "LazyFile",
-    opts = {
-      handlers = {
-        gitsigns = true,
-        search = true,
-      },
-    },
-  },
-  {
     "mvllow/modes.nvim",
     event = "BufEnter",
     opts = {},
