@@ -25,7 +25,11 @@ return {
     "craftzdog/solarized-osaka.nvim",
     lazy = true,
     opts = {
-      transparent = false,
+      transparent = true,
+      styles = {
+        sidebars = "transparent",
+        floats = "transparent",
+      },
     },
   },
   {
