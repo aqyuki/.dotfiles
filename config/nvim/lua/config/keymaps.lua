@@ -1,16 +1,7 @@
-local keymap = vim.keymap
-local opts = { noremap = true, silent = true }
+local map = vim.keymap.set
 
--- from INSERT to NORMAL
-keymap.set("i", "jj", "<Esc>", opts)
-keymap.set("i", "kk", "<Esc>", opts)
+-- Change mode
+map("i", "jj", "<esc>", { silent = true, noremap = true })
 
--- delete
-keymap.set("n", "x", '"_x', opts)
-
--- Increment/decrement
-keymap.set("n", "+", "<C-a>")
-keymap.set("n", "-", "<C-x>")
-
--- Delete a word backwards
-keymap.set("n", "dw", 'vb"_d')
+-- Better delete
+map("n", "x", '"_x', { silent = true, noremap = true })

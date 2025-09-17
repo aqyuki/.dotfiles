@@ -1,8 +1,3 @@
--- LazyVim settings
-vim.g.lazyvim_picker = "telescope"
-vim.g.lazyvim_cmp = "blink.cmp"
-vim.g.lazyvim_blink_main = true
-
 -- Spell check
 vim.opt.spelllang = { "cjk", "en" }
 

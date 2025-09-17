@@ -1,20 +1,17 @@
 return {
   {
-    "nvim-treesitter/nvim-treesitter",
-    optional = true,
-    opts = {
-      ensure_installed = {
-        "css",
-        "html",
-        "typespec",
-        "javascript",
-        "typescript",
-        "tsx",
-        "go",
-        "gomod",
-        "gosum",
-        "rust",
+    "Wansmer/treesj",
+    dependencies = { "nvim-treesitter/nvim-treesitter" },
+    keys = {
+      {
+        "<leader>cj",
+        function()
+          require("treesj").toggle()
+        end,
+        mode = "n",
+        desc = "toggle by TreeSJ",
       },
     },
+    opts = {},
   },
 }
