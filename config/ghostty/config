@@ -1,0 +1,8 @@
+command = /opt/homebrew/bin/fish
+
+font-size = 12
+font-family = JetBrains Mono
+theme = Catppuccin Macchiato
+
+macos-titlebar-style = transparent
+background-opacity = 0.8
