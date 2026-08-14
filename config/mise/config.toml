@@ -1,0 +1,8 @@
+[tools]
+node = "24"
+pnpm = "11"
+"npm:cz-git" = "latest"
+"npm:czg" = "latest"
+
+[settings]
+minimum_release_age = "3d"

@@ -1,0 +1,14 @@
+[dotfiles]
+"~/.config/fish" = { source = "config/fish" }
+"~/.config/ghostty" = { source = "config/ghostty" }
+"~/.config/git" = { source = "config/git" }
+"~/.config/lazygit" = { source = "config/lazygit" }
+"~/.config/mise" = { source = "config/mise" }
+"~/.config/starship.toml" = { source = "config/starship.toml" }
+
+[tasks.bootstrap]
+hide = true
+run = ["brew bundle install", "./scripts/install-safe-chain.sh"]
+
+[settings]
+dotfiles = { root = "~/.dotfiles", default_mode = "symlink" }
