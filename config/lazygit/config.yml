@@ -1,0 +1,41 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/jesseduffield/lazygit/master/schema/config.json
+git:
+  diffRenderers:
+    - colorArg: always
+      command: delta --dark --paging=never
+  parseEmoji: true
+gui:
+  tabWidth: 2
+  theme:
+    activeBorderColor:
+      - "#91d7e3"
+      - bold
+    inactiveBorderColor:
+      - "#a5adcb"
+    optionsTextColor:
+      - "#8aadf4"
+    selectedLineBgColor:
+      - "#363a4f"
+    cherryPickedCommitBgColor:
+      - "#494d64"
+    cherryPickedCommitFgColor:
+      - "#91d7e3"
+    unstagedChangesColor:
+      - "#ed8796"
+    defaultFgColor:
+      - "#cad3f5"
+    searchingActiveBorderColor:
+      - "#eed49f"
+  authorColors:
+    "*": "#b7bdf8"
+customCommands:
+  - key: c
+    description: "czg を利用して絵文字無しコミットを行う"
+    context: "files"
+    command: "czg"
+    output: "terminal"
+  - key: C
+    description: "czg を利用して絵文字付きコミットを行う"
+    context: "files"
+    command: "czg emoji"
+    output: "terminal"
