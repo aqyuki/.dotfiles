@@ -1,0 +1,4 @@
+# fish
+# 補完ファイルはツールの更新により変更される可能性があるため、バージョン管理から除外する
+config/fish/completions/*
+config/fish/fish_variables
