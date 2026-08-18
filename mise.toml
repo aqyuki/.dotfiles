@@ -8,7 +8,11 @@
 
 [tasks.bootstrap]
 hide = true
-run = ["brew bundle install", "./scripts/install-safe-chain.sh"]
+run = [
+  "./scripts/install-brew.sh",
+  "./scripts/install-safe-chain.sh",
+  "./scripts/install-atlas.sh",
+]
 
 [settings]
 dotfiles = { root = "~/.dotfiles", default_mode = "symlink" }
