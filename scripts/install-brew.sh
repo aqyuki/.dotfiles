@@ -1,4 +1,5 @@
 #!/bin/bash
+set -euo pipefail
 
 if ! command -v brew &> /dev/null; then
   echo "install-brew.sh requires Homebrew to be installed. Please install Homebrew first."

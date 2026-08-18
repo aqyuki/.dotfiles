@@ -1,4 +1,5 @@
 #!/bin/bash
+set -euo pipefail
 
 if command -v safe-chain &> /dev/null; then
   echo "safe-chain is already installed."

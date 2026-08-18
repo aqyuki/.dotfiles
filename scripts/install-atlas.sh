@@ -1,4 +1,5 @@
 #!/bin/bash
+set -euo pipefail
 
 if command -v atlas &> /dev/null; then
   echo "atlas is already installed."
