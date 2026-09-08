@@ -1,3 +1,4 @@
+tap "k1low/tap", "https://github.com/k1LoW/homebrew-tap"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Lightweight DNS forwarder and DHCP server
@@ -16,6 +17,8 @@ brew "ghq"
 brew "git-delta"
 # GNU Privacy Guard (OpenPGP)
 brew "gnupg"
+# Human friendly `go test` runner
+brew "gotestsum"
 # Simple terminal UI for git commands
 brew "lazygit"
 # Clone of ls with colorful output, file type icons, and more
@@ -36,14 +39,12 @@ brew "tokei"
 brew "uv"
 # Tool for managing your YubiKey configuration
 brew "ykman"
+# octocov is a toolkit for collecting code metrics (code coverage, code to test ratio and test execution time).
+brew "k1low/tap/octocov", trusted: true
 # Command-line interface for 1Password
 cask "1password-cli"
 # OpenAI's official ChatGPT desktop app
 cask "chatgpt"
-# Anthropic's official Claude AI desktop app
-cask "claude"
-# Terminal-based AI coding assistant
-cask "claude-code"
 # OpenAI's coding agent that runs in your terminal
 cask "codex"
 cask "font-jetbrains-mono"
