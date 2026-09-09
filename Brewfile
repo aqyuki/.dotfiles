@@ -1,4 +1,5 @@
 tap "k1low/tap", "https://github.com/k1LoW/homebrew-tap"
+tap "steipete/tap", trusted: true
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Lightweight DNS forwarder and DHCP server
@@ -45,8 +46,14 @@ brew "k1low/tap/octocov", trusted: true
 cask "1password-cli"
 # OpenAI's official ChatGPT desktop app
 cask "chatgpt"
+# Anthropic's official Claude AI desktop app
+cask "claude"
+# Terminal-based AI coding assistant
+cask "claude-code"
 # OpenAI's coding agent that runs in your terminal
 cask "codex"
+# Menu bar usage monitor for Codex and Claude
+cask "steipete/tap/codexbar", trusted: true
 cask "font-jetbrains-mono"
 cask "font-symbols-only-nerd-font"
 # Terminal emulator that uses platform-native UI and GPU acceleration
