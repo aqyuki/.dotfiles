@@ -44,6 +44,8 @@ brew "ykman"
 brew "k1low/tap/octocov", trusted: true
 # Command-line interface for 1Password
 cask "1password-cli"
+# API development platform
+cask "apidog"
 # OpenAI's official ChatGPT desktop app
 cask "chatgpt"
 # Anthropic's official Claude AI desktop app
@@ -58,8 +60,6 @@ cask "font-jetbrains-mono"
 cask "font-symbols-only-nerd-font"
 # Terminal emulator that uses platform-native UI and GPU acceleration
 cask "ghostty"
-# HTTP and GraphQL Client
-cask "insomnia"
 # Native GUI tool for relational databases
 cask "tableplus"
 # Open-source code editor
