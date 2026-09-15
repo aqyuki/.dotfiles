@@ -2,8 +2,6 @@ tap "k1low/tap", "https://github.com/k1LoW/homebrew-tap"
 tap "steipete/tap", trusted: true
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
-# Lightweight DNS forwarder and DHCP server
-brew "dnsmasq"
 # Simple, fast and user-friendly alternative to find
 brew "fd"
 # User-friendly command-line shell for UNIX-like operating systems
