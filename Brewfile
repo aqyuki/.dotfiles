@@ -46,6 +46,14 @@ brew "k1low/tap/octocov", trusted: true
 cask "1password-cli"
 # API development platform
 cask "apidog"
+# OpenAI's official ChatGPT desktop app
+cask "chatgpt"
+# Anthropic's official Claude AI desktop app
+cask "claude"
+# Terminal-based AI coding assistant
+cask "claude-code"
+# OpenAI's coding agent that runs in your terminal
+cask "codex"
 # Menu bar usage monitor for Codex and Claude
 cask "steipete/tap/codexbar", trusted: true
 cask "font-jetbrains-mono"
