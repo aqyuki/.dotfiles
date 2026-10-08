@@ -26,8 +26,8 @@ gui:
       - "#cad3f5"
     searchingActiveBorderColor:
       - "#eed49f"
-  authorColors:
-    "*": "#b7bdf8"
+    authorColors:
+      "*": "#b7bdf8"
 customCommands:
   - key: c
     description: "czg を利用して絵文字無しコミットを行う"
