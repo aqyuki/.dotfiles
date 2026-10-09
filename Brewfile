@@ -46,6 +46,8 @@ brew "ykman"
 brew "k1low/tap/octocov", trusted: true
 # Command-line interface for 1Password
 cask "1password-cli"
+# Tools for building Android applications
+cask "android-studio"
 # API development platform
 cask "apidog"
 # OpenAI's official ChatGPT desktop app
