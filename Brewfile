@@ -38,6 +38,8 @@ brew "starship"
 brew "tokei"
 # Extremely fast Python package installer and resolver, written in Rust
 brew "uv"
+# Command-line tool to install and switch between multiple versions of Xcode
+brew "xcodes"
 # Tool for managing your YubiKey configuration
 brew "ykman"
 # octocov is a toolkit for collecting code metrics (code coverage, code to test ratio and test execution time).
@@ -64,3 +66,5 @@ cask "ghostty"
 cask "tableplus"
 # Open-source code editor
 cask "visual-studio-code"
+# Install and switch between multiple versions of Xcode
+cask "xcodes-app"
