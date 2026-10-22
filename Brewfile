@@ -1,3 +1,4 @@
+tap "floci-io/floci"
 tap "k1low/tap", "https://github.com/k1LoW/homebrew-tap"
 tap "steipete/tap", trusted: true
 # Securely store and access AWS credentials in development environments
@@ -56,6 +57,8 @@ brew "uv"
 brew "xcodes"
 # Tool for managing your YubiKey configuration
 brew "ykman"
+# Official CLI for the Floci local AWS emulator
+brew "floci-io/floci/floci", trusted: true
 # octocov is a toolkit for collecting code metrics (code coverage, code to test ratio and test execution time).
 brew "k1low/tap/octocov", trusted: true
 # Command-line interface for 1Password
