@@ -1,5 +1,9 @@
 tap "k1low/tap", "https://github.com/k1LoW/homebrew-tap"
 tap "steipete/tap", trusted: true
+# Securely store and access AWS credentials in development environments
+brew "aws-vault"
+# Official Amazon AWS command-line interface
+brew "awscli"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Container runtimes on MacOS (and Linux) with minimal setup
@@ -74,6 +78,8 @@ cask "font-jetbrains-mono"
 cask "font-symbols-only-nerd-font"
 # Terminal emulator that uses platform-native UI and GPU acceleration
 cask "ghostty"
+# Plugin for AWS CLI to start and end sessions that connect to managed instances
+cask "session-manager-plugin"
 # Native GUI tool for relational databases
 cask "tableplus"
 # Open-source code editor
