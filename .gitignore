@@ -4,3 +4,6 @@ config/fish/completions/*
 config/fish/fish_variables
 config/git/config.local
 config/git/profiles.local/
+
+# fishの自作スクリプトはGitの追跡対象とする
+!config/fish/completions/ghq-clone.fish

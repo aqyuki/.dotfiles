@@ -7,6 +7,7 @@ set --global --export XDG_BIN_HOME $HOME/.local/bin
 fish_add_path $XDG_BIN_HOME
 
 abbr --add --global lg lazygit
+abbr --add --global ghqc ghq-clone
 abbr --add --global proot 'cd (git rev-parse --show-toplevel)'
 abbr --add --global --command git pf 'push --force-if-includes  --force-with-lease'
 
