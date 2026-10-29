@@ -8,7 +8,7 @@ brew "awscli"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Container runtimes on MacOS (and Linux) with minimal setup
-brew "colima", restart_service: :changed
+brew "colima"
 # Pack, ship and run any application as a lightweight container
 brew "docker"
 # Docker CLI plugin for extended build capabilities with BuildKit
@@ -79,6 +79,8 @@ cask "codex"
 cask "steipete/tap/codexbar", trusted: true
 cask "font-jetbrains-mono"
 cask "font-symbols-only-nerd-font"
+# Set of tools to manage resources and applications hosted on Google Cloud
+cask "gcloud-cli"
 # Terminal emulator that uses platform-native UI and GPU acceleration
 cask "ghostty"
 # Plugin for AWS CLI to start and end sessions that connect to managed instances
