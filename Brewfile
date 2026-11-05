@@ -65,8 +65,6 @@ brew "k1low/tap/octocov", trusted: true
 cask "1password-cli"
 # Tools for building Android applications
 cask "android-studio"
-# API development platform
-cask "apidog"
 # OpenAI's official ChatGPT desktop app
 cask "chatgpt"
 # Anthropic's official Claude AI desktop app
@@ -83,6 +81,8 @@ cask "font-symbols-only-nerd-font"
 cask "gcloud-cli"
 # Terminal emulator that uses platform-native UI and GPU acceleration
 cask "ghostty"
+# Collaboration platform for API development
+cask "postman"
 # Plugin for AWS CLI to start and end sessions that connect to managed instances
 cask "session-manager-plugin"
 # Native GUI tool for relational databases
